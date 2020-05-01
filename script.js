@@ -113,16 +113,16 @@ const questions = [
         { text: 'A prototype from Tesla', correct: false },
         { text: 'A true or false statement', correct: true },
         { text: 'a 12th century tortue device', correct: false },
-        { text: 'A recently extinct fish ', correct: true }
+        { text: 'A recently extinct fish ', correct: false }
       ]
     },
     {
         question: 'How do you generate a random number?',
         answers: [
-          { text: 'math.Random', correct: false },
-          { text: 'math.0.random', correct: true },
-          { text: 'random/math', correct: true },
-          { text: 'mathx.rando.gen', correct: true }
+          { text: 'math.Random', correct: true },
+          { text: 'math.0.random', correct: false },
+          { text: 'random/math', correct: false },
+          { text: 'mathx.rando.gen', correct: false }
         ]
       },
       {
@@ -138,28 +138,28 @@ const questions = [
       {
         question: 'What does JSON stand for?"?',
         answers: [
-          { text: 'A high level programing language', correct: true },
-          { text: 'A language only baristas understand', correct: false },
-          { text: ' ' , correct:false },
-          { text: '22' , correct:false}
+          { text: 'Java Script Over Net', correct: false },
+          { text: 'Java Script Object Notation', correct: true },
+          { text: 'Jelly Syrup Over Noodles' , correct:false },
+          { text: 'Junction Straight Out Node' , correct:false}
         ]
       },
       {
-        question: 'What is an "onClick" event?',
+        question: 'What is a "switch" statement?',
         answers: [
-          { text: 'A high level programing language', correct: true },
-          { text: 'A language only baristas understand', correct: false },
-          { text: ' ' , correct:false },
-          { text: '22' , correct:false}
+          { text: 'A statement used to execute different code base on different conditions', correct: true },
+          { text: 'A javascript rule that randomly switches variable types', correct: false },
+          { text: 'A statement that contradicts itself' , correct:false },
+          { text: 'A shorthand for Javascript' , correct:false}
         ]
       },
       {
         question: 'Which one of these is a string ?',
         answers: [
-          { text: 'A high level programing language', correct: true },
-          { text: 'A language only baristas understand', correct: false },
-          { text: ' ' , correct:false },
-          { text: '22' , correct:false}
+          { text: '"3312"', correct: true },
+          { text: '"The arsonist has oddly shaped feet"', correct: true},
+          { text: '"document.answer.12"' , correct:true },
+          { text: 'All of the above ' , correct:true}
         ]
       }
   ]
